@@ -60,14 +60,14 @@ object Const {
 
     object Url {
         const val PATREON_URL = "https://www.patreon.com/topjohnwu"
-        const val SOURCE_CODE_URL = "https://github.com/vvb2060/Magisk"
+        const val SOURCE_CODE_URL = "https://github.com/davwheat/Magisk-alt"
 
         val CHANGELOG_URL = if (BuildConfig.VERSION_CODE % 100 != 0) Info.remote.magisk.note
-        else "https://topjohnwu.github.io/Magisk/releases/${BuildConfig.VERSION_CODE}.md"
+        else "https://github.com/davwheat/Magisk-alt/releases/${BuildConfig.VERSION_CODE}.md"
 
         const val GITHUB_RAW_URL = "https://raw.githubusercontent.com/"
         const val GITHUB_API_URL = "https://api.github.com/"
-        const val GITHUB_PAGE_URL = "https://topjohnwu.github.io/magisk_files/"
+        const val GITHUB_PAGE_URL = "https://davwheat.github.io/Magisk-alt/"
         const val JS_DELIVR_URL = "https://cdn.jsdelivr.net/gh/"
         const val OFFICIAL_REPO = "https://magisk-modules-repo.github.io/submission/modules.json"
     }
